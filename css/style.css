@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+p{
+    padding: 10px 0;
+}
+
+body{
+    color: white;
+    background-color: #222;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section-left,
+.section-right{
+    margin: 20px 0;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.section-img{
+    height: 200px;
+    margin: 15px;
+    border: 2px solid red;
+    background: #666;
+}
+
+.borderc{
+    border: 2px solid white;
+}
