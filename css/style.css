@@ -24,9 +24,12 @@ body{
     max-width: 800px;
     margin: 0 auto;
 }
-.section-left,
-.section-right{
+.section-columns,
+.section-text{
     margin: 20px 0;
+}
+.section-columns{
+    border: 2px solid blue;
 }
 .fleft{
     float: left;
@@ -35,12 +38,17 @@ body{
     float: right;
 }
 .section-img{
-    height: 200px;
-    margin: 15px;
+    width: calc(100% - 10px);
+    margin: 5px;
     border: 2px solid red;
     background: #666;
 }
 
 .borderc{
     border: 2px solid white;
+}
+section.section-columns .box{
+    text-align: center;
+    width: calc(100% / 3);
+    border: 1px solid green;
 }
