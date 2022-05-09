@@ -59,14 +59,16 @@ main{
     justify-content: space-between;
     background-color:gray;
 }
-
 .colsx{
-    flex-basis: 55%;
     height: 120px;
     background-color: aquamarine;
+    flex-grow: 2;
+    margin: 10px;
 }
-.coldx{
+.coldx,
+.colssx{
     background-color:aqua;
-    flex-basis: 40%;
     height: 70px;
+    margin: 10px;
+    flex-grow: 1;
 }
