@@ -32,6 +32,7 @@
 }
 
 
+
 /* 12 system */
 
 /* XS */
@@ -255,4 +256,16 @@
 .center {
    justify-content: center;
    text-align: center;
+}
+
+
+.p-1{
+   padding: 10px;
+}
+.p-3{
+   padding: 30px;
+}
+
+.bg-active{
+   background-color: green;
 }
