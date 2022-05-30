@@ -1,0 +1,14 @@
+body{
+   background-color: lightslategray;
+}
+
+[class*="col-"], .col{
+   background-color: cornflowerblue;
+   color: white;
+   border: 1px solid white;
+   height: 100px;
+}
+.row{
+   background-color: lightsalmon;
+   border: 1px solid red;
+}
